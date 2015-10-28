@@ -1,0 +1,26 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Source Sans Pro';
+
+// @fontName          : 'Roboto';
+
+// @fontName          : 'Open Sans';
+
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+@emSize   : 16px;
+
+@fontSize : 16px;
+
+
+

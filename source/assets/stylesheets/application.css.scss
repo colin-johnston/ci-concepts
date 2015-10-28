@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+// @import "semantic-ui";
+
+@import "../semantic/dist/semantic.css";
+
+.ui.menu .item > img:not(.ui) {
+  display: inline-block;
+  vertical-align: middle;
+  margin: -0.3em 0em;
+  width: 144px;
+}

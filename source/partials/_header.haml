@@ -1,0 +1,50 @@
+%header.ui.fixed.inverted.menu
+  /.ui.container
+
+  .header.item{:href => "#"}
+    / %img.logo{:src => image_tag "solano-ci-logo-white.png"}/
+    =image_tag 'solano-ci-logo-white.png', class: "logo"
+  / %a.item{:href => "#"} Dashboard
+  / %a.ui.simple.dropdown.item{:href => "#"}
+  /   Dropdown
+  /   %i.dropdown.icon
+  /   .menu
+  /     .item Link Item
+  /     .item Link Item
+  /     .divider
+  /     .header Header Item
+  /     .item
+  /       %i.dropdown.icon
+  /       Sub Menu
+  /       .menu
+  /         .item Link Item
+  /         .item Link Item
+  /     .item Link Item
+  %a.item.toggle
+    %i.sidebar.icon
+    / Menu
+
+  .right.menu
+    %a.ui.simple.dropdown.item{:href => "#"}
+      / %img.ui.avatar.image{:src => image_tag "semantic-ui/wireframe/square-image.png"}/
+      / %img.ui.avatar.image
+      =image_tag 'semantic-ui/wireframe/square-image.png', class: "ui avatar image"
+      colinjohnston
+      %i.dropdown.icon
+      .menu
+        .item Link Item
+        .item Link Item
+        .divider
+        .header Header Item
+        .item
+          %i.dropdown.icon
+          Sub Menu
+          .menu
+            .item Link Item
+            .item Link Item
+        .item Link Item
+    .item
+      .ui.primary.button Sign Out
+    %a.item.toggle2
+      %i.setting.icon
+
