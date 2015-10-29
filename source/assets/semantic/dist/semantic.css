@@ -528,11 +528,11 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #FFFFFF;
+  background: #FAFAFA;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-smoothing: antialiased;
 }
 
@@ -628,17 +628,17 @@ a:hover {
 
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Form */
@@ -646,19 +646,19 @@ a:hover {
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*******************************
@@ -671,6 +671,8 @@ input::selection {
 
 .pusher {
   margin-top: 100px;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .ui.visible.push.sidebar,
@@ -682,6 +684,10 @@ input::selection {
 .ui.breadcrumb.session {
   margin: 0em 1em;
   vertical-align: baseline;
+}
+
+th.collapsing {
+  min-width: 110px;
 }
 /*!
  * # Semantic UI 2.1.4 - Button
@@ -6202,7 +6208,7 @@ i.flag.zimbabwe:before {
   font-weight: bold;
   line-height: 1.2857em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.header:first-child {
@@ -10644,7 +10650,7 @@ img.ui.bordered.image {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.input input {
@@ -10662,7 +10668,7 @@ img.ui.bordered.image {
   padding: 0.5804em 0.875em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   border-radius: 0.25rem;
   -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
@@ -10712,7 +10718,7 @@ img.ui.bordered.image {
 .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #FAFAFA;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: none;
 }
 
@@ -10765,17 +10771,17 @@ img.ui.bordered.image {
 
 .ui.input.focus input::-webkit-input-placeholder,
 .ui.input input:focus::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.input.focus input::-moz-placeholder,
 .ui.input input:focus::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.input.focus input::-ms-input-placeholder,
 .ui.input input:focus::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*--------------------
@@ -12340,7 +12346,7 @@ a.ui.basic.black.label:hover {
 .ui.basic.label {
   background: none #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: none;
 }
 
@@ -12799,7 +12805,7 @@ ol.ui.list ol li,
   margin: 0em;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Description */
@@ -12987,7 +12993,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*******************************
@@ -13268,7 +13274,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 ul.ui.horizontal.bulleted.list li:first-child::before,
@@ -13311,7 +13317,7 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   vertical-align: middle;
   opacity: 0.8;
 }
@@ -13825,7 +13831,7 @@ ol.ui.horizontal.list li:before,
 /* White Dimmer (Inverted) */
 
 .ui.inverted.dimmer .ui.loader {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.inverted.dimmer .ui.loader:before {
@@ -15170,7 +15176,7 @@ ol.ui.horizontal.list li:before,
 /* Nested */
 
 .ui.inverted.segment .segment {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.inverted.segment .inverted.segment {
@@ -15353,7 +15359,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em 0em;
   padding: 1.125em 2em;
   background: #FFFFFF;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: none;
   border-radius: 0em;
   border: none;
@@ -15430,7 +15436,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.9375em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.steps .step > .description {
@@ -15715,7 +15721,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: #DCDDDE;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Completed */
@@ -16146,7 +16152,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.25rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -16200,7 +16206,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -16217,7 +16223,7 @@ ol.ui.horizontal.list li:before,
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -16259,7 +16265,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 0.875em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -16421,27 +16427,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(150, 150, 150, 0.87);
 }
 
 .ui.form ::-ms-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(150, 150, 150, 0.87);
 }
 
 .ui.form ::-moz-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: rgba(150, 150, 150, 0.87);
 }
 
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(99, 99, 99, 0.87);
 }
 
 .ui.form :focus::-ms-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(99, 99, 99, 0.87);
 }
 
 .ui.form :focus::-moz-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: rgba(99, 99, 99, 0.87);
 }
 
 /* Error Placeholder */
@@ -16861,7 +16867,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="url"] {
   background: #FFFFFF;
   border-color: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: none;
 }
 
@@ -16882,7 +16888,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.25rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -17160,7 +17166,7 @@ ol.ui.horizontal.list li:before,
   vertical-align: baseline;
   font-size: 0.9375em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   text-transform: none;
 }
 
@@ -19643,7 +19649,7 @@ ol.ui.horizontal.list li:before,
   background: none;
   padding: 0.9375em 1.125em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-weight: normal;
   -webkit-transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
   transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
@@ -19817,7 +19823,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em !important;
   padding: 0.6875em 1.125em !important;
   background: transparent !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(10, 10, 10, 0.87) !important;
   text-transform: none !important;
   font-weight: normal !important;
   box-shadow: none !important;
@@ -20227,7 +20233,7 @@ Floated Menu / Item
   border-right: 1px solid transparent;
   border-top: 2px solid transparent;
   padding: 0.9375em 1.4375em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.tabular.menu .item:before {
@@ -20591,7 +20597,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .link.item:hover,
 .ui.secondary.pointing.menu a.item:hover {
   background-color: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Pressed */
@@ -21781,7 +21787,7 @@ Floated Menu / Item
   background: #F8F8F9;
   padding: 1em 1.5em;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 0.25rem;
@@ -22308,7 +22314,7 @@ Floated Menu / Item
   box-shadow: none;
   border-radius: 0.25rem;
   text-align: left;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -22343,7 +22349,7 @@ Floated Menu / Item
   cursor: auto;
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   padding: 0.9375em 0.6875em;
   vertical-align: inherit;
   font-style: none;
@@ -22380,7 +22386,7 @@ Floated Menu / Item
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   padding: 0.6875em 0.6875em;
   vertical-align: middle;
   font-style: normal;
@@ -22666,13 +22672,13 @@ Floated Menu / Item
 
 .ui.table tr.active,
 .ui.table td.active {
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
+  box-shadow: 0px 0px 0px rgba(10, 10, 10, 0.87) inset;
 }
 
 .ui.table tr.active,
 .ui.table td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(10, 10, 10, 0.87) !important;
 }
 
 /*--------------
@@ -22831,7 +22837,7 @@ Floated Menu / Item
 .ui.selectable.table tr.active:hover,
 .ui.selectable.table tr:hover td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(10, 10, 10, 0.87) !important;
 }
 
 .ui.selectable.table tr.positive:hover,
@@ -23235,7 +23241,7 @@ Floated Menu / Item
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.sortable.table thead th:first-child {
@@ -24154,7 +24160,7 @@ Floated Menu / Item
 
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*--------------
@@ -24981,7 +24987,7 @@ a.ui.card:hover,
 
 .ui.comments .comment .author {
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-weight: bold;
 }
 
@@ -25021,7 +25027,7 @@ a.ui.card:hover,
   margin: 0.25em 0em 0.5em;
   font-size: 1em;
   word-wrap: break-word;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   line-height: 1.3;
 }
 
@@ -25284,7 +25290,7 @@ a.ui.card:hover,
   margin: 0em;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Summary Image */
@@ -25341,7 +25347,7 @@ a.ui.card:hover,
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Images */
@@ -25659,7 +25665,7 @@ a.ui.card:hover,
   max-width: auto;
   font-size: 1em;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*--------------
@@ -25731,7 +25737,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item .meta > a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*--------------
@@ -26109,7 +26115,7 @@ a.ui.card:hover,
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   text-transform: uppercase;
   text-align: center;
 }
@@ -26662,7 +26668,7 @@ a.ui.card:hover,
   padding: 0.5em 0em;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Content */
@@ -26802,13 +26808,13 @@ a.ui.card:hover,
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Active */
@@ -26980,7 +26986,7 @@ a.ui.card:hover,
   height: 17px;
   text-align: center;
   opacity: 0;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   -webkit-transition: border 0.1s ease, opacity 0.1s ease, -webkit-transform 0.1s ease, box-shadow 0.1s ease;
   transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
 }
@@ -26993,7 +26999,7 @@ a.ui.card:hover,
 
 .ui.checkbox label,
 .ui.checkbox + label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }
@@ -27210,7 +27216,7 @@ a.ui.card:hover,
   -webkit-transform: scale(0.46666667);
   -ms-transform: scale(0.46666667);
   transform: scale(0.46666667);
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(10, 10, 10, 0.87);
 }
 
 /* Focus */
@@ -27396,7 +27402,7 @@ a.ui.card:hover,
 .ui.toggle.checkbox label {
   min-height: 1.5rem;
   padding-left: 4.5rem;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.toggle.checkbox label {
@@ -27879,7 +27885,7 @@ body.dimmable > .dimmer {
   text-align: left;
   border-top: none;
   line-height: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   padding: 0.6875rem 1.125rem !important;
   font-size: 1rem;
   text-transform: none;
@@ -28132,7 +28138,7 @@ body.dimmable > .dimmer {
   background: #FFFFFF;
   display: inline-block;
   padding: 0.6875em 2.475em 0.6875em 0.875em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: none;
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0.25rem;
@@ -29716,7 +29722,7 @@ select.ui.dropdown {
   .ui.modal > .close {
     top: 1.0535rem;
     right: 1rem;
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(10, 10, 10, 0.87);
   }
 }
 
@@ -29819,7 +29825,7 @@ select.ui.dropdown {
 }
 
 .ui.inverted.dimmer > .basic.modal {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.inverted.dimmer > .ui.basic.modal > .header {
@@ -29921,7 +29927,7 @@ select.ui.dropdown {
 .ui.fullscreen.modal > .close {
   top: 1.0535rem;
   right: 1rem;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*--------------
@@ -30053,7 +30059,7 @@ select.ui.dropdown {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
   text-align: center;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   border-radius: 0em 0em 0.25rem 0.25rem;
   -webkit-transition: 0.2s background ease;
   transition: 0.2s background ease;
@@ -30201,7 +30207,7 @@ a.ui.nag {
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   border-radius: 0.25rem;
   box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.08);
 }
@@ -30624,7 +30630,7 @@ a.ui.nag {
   right: auto;
   left: 0%;
   bottom: auto;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-weight: bold;
   text-shadow: none;
   margin-top: 0.2em;
@@ -30671,30 +30677,30 @@ a.ui.nag {
 
 .ui.indicating.progress[data-percent^="1"] .label,
 .ui.indicating.progress[data-percent^="2"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.indicating.progress[data-percent^="3"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.indicating.progress[data-percent^="4"] .label,
 .ui.indicating.progress[data-percent^="5"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.indicating.progress[data-percent^="6"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.indicating.progress[data-percent^="7"] .label,
 .ui.indicating.progress[data-percent^="8"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.indicating.progress[data-percent^="9"] .label,
 .ui.indicating.progress[data-percent^="100"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Single Digits */
@@ -30720,7 +30726,7 @@ a.ui.nag {
 .ui.indicating.progress[data-percent="7"] .label,
 .ui.indicating.progress[data-percent="8"] .label,
 .ui.indicating.progress[data-percent="9"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* Indicating Success */
@@ -31199,7 +31205,7 @@ a.ui.nag {
 .ui.rating .icon.selected,
 .ui.rating .icon.selected.active {
   background: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /*-------------------
@@ -31437,7 +31443,7 @@ a.ui.nag {
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
   transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
@@ -31494,7 +31500,7 @@ a.ui.nag {
   overflow: hidden;
   font-size: 1em;
   padding: 0.875em 1.125em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   line-height: 1.33;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
 }
@@ -31559,13 +31565,13 @@ a.ui.nag {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.search > .results > .message .description {
   margin-top: 0.25rem;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 /* View All Results */
@@ -31575,7 +31581,7 @@ a.ui.nag {
   border-top: none;
   background: #F3F4F5;
   padding: 0.9375em 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   font-weight: bold;
   text-align: center;
 }
@@ -31651,7 +31657,7 @@ a.ui.nag {
 }
 
 .ui.category.search > .results .category.active > .name {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
 }
 
 .ui.search > .results .result.active,
@@ -31859,7 +31865,7 @@ a.ui.nag {
   height: 15em;
   padding: 2em;
   background-color: #E6E6E6;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -32103,7 +32109,7 @@ body.pushable {
 }
 
 body.pushable > .pusher {
-  background: #FFFFFF;
+  background: #FAFAFA;
 }
 
 /* Pusher should inherit background from context */

@@ -5,7 +5,7 @@ title: "Home"
 -# = partial "partials/sidebar"
 
 .pusher
-  .ui.container
+  .ui.grid
     / %h1.ui.header Placeholder Home Page
     / %p Haml Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat blanditiis tempora officiis cupiditate necessitatibus nemo fugit numquam voluptatum dolorem non, debitis, saepe, beatae, molestias. Minima enim cupiditate quibusdam voluptatum odio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, ea, in magnam animi distinctio nam consequatur harum praesentium, nobis neque a nemo. Error illum, doloremque repudiandae, omnis tempora perspiciatis natus?
 
@@ -21,37 +21,106 @@ title: "Home"
     /   .item
     /     %p tddium_site
 
-    .ui.button.basic.icon.dashboard
-      %i.arrow.left.icon 
-      Dashboard
-    .ui.breadcrumb.session
-      %a.section solanolabs
-      %i.right.chevron.icon.divider
-      %a.section tddium_site
+    .sixteen.wide.column
 
-    .ui.five.small.steps
-      .completed.step
-        %i.wizard.icon
-        .content
-          .title Startup
-          .description Lorem ipsum dolor sit amet
-      .active.step
-        %i.wizard.icon
-        .content
-          .title Queue
-          .description Lorem ipsum dolor sit amet
-      .disabled.step
-        %i.wizard.icon
-        .content
-          .title Prepare
-          .description Lorem ipsum dolor sit amet
-      .disabled.step
-        %i.wizard.icon
-        .content
-          .title Run
-          .description Lorem ipsum dolor sit amet
-      .disabled.step
-        %i.wizard.icon
-        .content
-          .title Finish
-          .description Lorem ipsum dolor sit amet
+      .ui.button.basic.icon.dashboard
+        %i.arrow.left.icon 
+        Dashboard
+      .ui.breadcrumb.session
+        %a.section solanolabs
+        %i.right.chevron.icon.divider
+        %a.section tddium_site
+
+    .twelve.wide.column
+
+      .ui.five.small.steps
+        .completed.step
+          %i.wizard.icon
+          .content
+            .title Startup
+            /.description Lorem ipsum dolor sit amet
+        .active.step
+          %i.wizard.icon
+          .content
+            .title Queue
+            /.description Lorem ipsum dolor sit amet
+        .disabled.step
+          %i.wizard.icon
+          .content
+            .title Prepare
+            /.description Lorem ipsum dolor sit amet
+        .disabled.step
+          %i.wizard.icon
+          .content
+            .title Run
+            /.description Lorem ipsum dolor sit amet
+        .disabled.step
+          %i.wizard.icon
+          .content
+            .title Finish
+            /.description Lorem ipsum dolor sit amet
+
+
+
+      %table.ui.sortable.table
+        %thead
+          %tr
+            %th Name
+            %th.collapsing.descending Status
+            %th.collapsing Duration
+        %tbody
+          %tr.positive
+            %td test1
+            %td.collapsing passed
+            %td.collapsing 5 sec
+          %tr.positive
+            %td test2
+            %td.collapsing passed
+            %td.collapsing 4 sec
+          %tr.positive
+            %td test3
+            %td.collapsing passed
+            %td.collapsing 3 sec
+          %tr.warning
+            %td test4
+            %td.collapsing warnings
+            %td.collapsing 0 sec
+          %tr.positive
+            %td test5
+            %td.collapsing passed
+            %td.collapsing 1 sec
+
+
+            
+
+
+      / .ui.styled.fluid.accordion.test1
+        
+      /   .title
+      /     %i.dropdown.icon
+      /     Test
+      /     .ui.horizontal.link.list.right.floated
+      /       %a.item passed
+      /       %a.item 1 sec
+      /   .content
+      /     %p Test info
+
+    .four.wide.column
+      .ui.secondary.segment
+        %h4.ui.header Recent Activity
+        .ui.relaxed.divided.list
+          .item
+            %i.large.github.middle.aligned.icon
+            .content
+              %a.header solanolabs/tddium_site
+              .description Updated 10 mins ago
+          .item
+            %i.large.github.middle.aligned.icon
+            .content
+              %a.header solanolabs/tddium_site
+              .description Updated 22 mins ago
+          .item
+            %i.large.github.middle.aligned.icon
+            .content
+              %a.header solanolabs/tddium_site
+              .description Updated 34 mins ago

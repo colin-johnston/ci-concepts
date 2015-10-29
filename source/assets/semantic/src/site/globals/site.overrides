@@ -4,6 +4,8 @@
 
 .pusher {
   margin-top: 100px;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .ui.visible.push.sidebar, .ui.left.push.sidebar, .ui.right.sidebar {
@@ -14,3 +16,11 @@
   margin: 0em 1em;
   vertical-align: baseline;
 }
+
+th.collapsing {
+  min-width: 110px;
+}
+
+// .sixteen.column {
+//   margin: 0 2em;
+// }

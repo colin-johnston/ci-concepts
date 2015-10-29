@@ -23,3 +23,14 @@ $('.ui.sidebar.right')
   })
   .sidebar('attach events', '.menu .item.toggle2')
 ;
+
+$('.ui.accordion.test1')
+  .accordion({
+    exclusive: false
+  })
+;
+
+
+$('.sortable.table')
+  .tablesort()
+;
