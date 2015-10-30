@@ -182,7 +182,7 @@ th.collapsing {
 }
 .ui.inverted.left.sidebar,
 .ui.inverted.left.inline.vertical.sidebar.menu {
-  background-color: #002E5D !important;
+  background-color: #ADB3B9 !important;
 }
 .solanoBlueBG {
   background-color: #002E5D !important;
@@ -216,4 +216,27 @@ th.collapsing {
 .four.wide.column > .ui.search.dropdown {
   min-width: 277px;
   margin-bottom: 1em;
+}
+.button.toggle.session {
+  float: left;
+  padding: 0.6875em .5em 0.6875em 1em;
+  margin-right: 2em;
+}
+.ui.list.session {
+  margin: 0;
+  line-height: 1.1em;
+  margin-top: -6px !important;
+}
+.ui.list.session > .item {
+  margin-left: .5em !important;
+}
+.ui.list.session > .item > i.icon:only-child {
+  vertical-align: middle !important;
+}
+.ui.steps .step > .icon {
+  font-size: 1.5em !important;
+}
+.vertical.sidebar.menu .item .search.button {
+  min-width: 224px !important;
+  margin-bottom: .5em;
 }

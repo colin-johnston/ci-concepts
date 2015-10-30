@@ -13,6 +13,7 @@ $('.ui.sidebar.left')
     closable: false
   })
   .sidebar('attach events', '.menu .item.toggle')
+  .sidebar('attach events', '.button.toggle')
 ;
 
 $('.ui.sidebar.right')
