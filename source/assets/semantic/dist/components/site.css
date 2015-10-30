@@ -159,7 +159,11 @@ input::selection {
          Site Overrides
 *******************************/
 
-.pusher {
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pusher.ci {
   margin-top: 100px;
   margin-left: 2em;
   margin-right: 2em;
@@ -175,4 +179,41 @@ input::selection {
 }
 th.collapsing {
   min-width: 110px;
+}
+.ui.inverted.left.sidebar,
+.ui.inverted.left.inline.vertical.sidebar.menu {
+  background-color: #002E5D !important;
+}
+.solanoBlueBG {
+  background-color: #002E5D !important;
+}
+.solanoMediumBlueBG {
+  background-color: #1186ff !important;
+}
+.solanoLightBlueBG {
+  background-color: #ddeeff !important;
+}
+.solanoBlue {
+  color: #002E5D !important;
+}
+.solanoMediumBlue {
+  color: #1186ff !important;
+}
+.solanoLightBlue {
+  color: #ddeeff !important;
+}
+.ui.dropdown > .default.text,
+.ui.default.dropdown > .text {
+  color: #4183C4 !important;
+}
+.ui.search.dropdown > .text {
+  color: #4183C4 !important;
+}
+.sixteen.wide.column > .right.chevron.icon {
+  color: #DCDDDE;
+  margin-left: .5em;
+}
+.four.wide.column > .ui.search.dropdown {
+  min-width: 277px;
+  margin-bottom: 1em;
 }

@@ -2,6 +2,14 @@
      User Global Variables
 *******************************/
 
+// Modifications based on 
+// --> src/themes/default/globals/site.variables
+
+// Changing various theme elements etc: 
+// IN: src/themes/default/{section}/{file}
+// OUT: src/site/{section}/{file}
+// * I needed to take put button styles in src/site/elements/button.overrides (not button.variables)
+
 
 /*-------------------
        Fonts
@@ -34,6 +42,17 @@
 @textColor           : rgba(10, 10, 10, 0.87);
 
 
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+
+@blue             : darken(#2185D0, 10%);
+
+
+
 /*-------------------
      Breakpoints
 --------------------*/
@@ -43,32 +62,6 @@
 @computerBreakpoint          : 992px;
 @largeMonitorBreakpoint      : 1200px;
 @widescreenMonitorBreakpoint : 1920px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*******************************
@@ -141,3 +134,24 @@
 @textFontFamily: @pageFont;
 @textLineHeight: 1.5;
 @textSize: @large;
+
+
+
+
+
+
+
+
+
+/*-------------------
+     Brand Colors
+--------------------*/
+
+@solanoBlue          : #002E5D;
+@solanoMediumBlue    : lighten(@solanoBlue, 35%);
+@solanoLightBlue     : lighten(@solanoBlue, 75%);
+
+@solanoHoverColor   : saturate(darken(@solanoBlue, 5), 10, relative);
+@solanoFocusColor   : saturate(darken(@solanoBlue, 8), 20, relative);
+@solanoDownColor    : darken(@solanoBlue, 10);
+@solanoActiveColor  : saturate(darken(@solanoBlue, 5), 15, relative);

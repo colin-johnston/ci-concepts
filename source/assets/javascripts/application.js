@@ -34,3 +34,7 @@ $('.ui.accordion.test1')
 $('.sortable.table')
   .tablesort()
 ;
+
+$('.ui.dropdown')
+  .dropdown()
+;

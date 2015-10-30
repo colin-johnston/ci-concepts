@@ -2,7 +2,12 @@
          Site Overrides
 *******************************/
 
-.pusher {
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pusher.ci {
   margin-top: 100px;
   margin-left: 2em;
   margin-right: 2em;
@@ -21,6 +26,50 @@ th.collapsing {
   min-width: 110px;
 }
 
-// .sixteen.column {
-//   margin: 0 2em;
-// }
+.ui.inverted.left.sidebar, .ui.inverted.left.inline.vertical.sidebar.menu {
+  background-color: @solanoBlue !important;
+}
+
+
+.solanoBlueBG {
+  background-color: @solanoBlue !important;
+}
+.solanoMediumBlueBG {
+  background-color: @solanoMediumBlue !important;
+}
+.solanoLightBlueBG {
+  background-color: @solanoLightBlue !important;
+}
+.solanoBlue {
+  color: @solanoBlue !important;
+}
+.solanoMediumBlue {
+  color: @solanoMediumBlue !important;
+}
+.solanoLightBlue {
+  color: @solanoLightBlue !important;
+}
+
+
+
+.ui.dropdown > .default.text, .ui.default.dropdown > .text {
+  color: @linkColor !important;
+}
+
+.ui.search.dropdown > .text {
+  color: @linkColor !important;
+}
+
+
+.sixteen.wide.column > .right.chevron.icon {
+  color: @lightGrey;
+  margin-left: .5em;
+}
+
+
+// sidebar search 
+
+.four.wide.column > .ui.search.dropdown {
+    min-width: 277px;
+    margin-bottom: 1em;
+}
