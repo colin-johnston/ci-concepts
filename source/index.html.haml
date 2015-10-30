@@ -72,7 +72,7 @@ title: "Home"
 
     .twelve.wide.column
 
-      .ui.five.small.steps
+      .ui.five.small.steps.v1
         .completed.step
           %i.wizard.icon
           .content
@@ -98,6 +98,125 @@ title: "Home"
           .content
             .title Finish
             /.description Lorem ipsum dolor sit amet
+      .twelve.wide.column
+        .ui.five.column.padded.grid.v1
+          .row
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.settings.icon
+                    .content
+                      6 Workers
+                  .item
+                    %i.flag.icon
+                    .content
+                      09:58:00
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      98 Tests Ready
+                  .item
+                    %i.wait.icon
+                    .content.green
+                      00:00:00
+                / %p 6 Workers
+                / %p Start: 09:58:00
+                / %p 98 Tests Ready
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      Workers Up
+                  .item
+                    &nbsp;
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      0 Tests Waiting
+                  .item
+                    %i.wait.icon
+                    .content.green
+                      00:00:00
+                / %p Workers Assigned
+                / %p 0 Tests Waiting
+                / %p 
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      Setup Complete
+                  .item
+                    &nbsp;
+                  .item
+                    &nbsp;
+                  .item
+                    %i.wait.icon
+                    .content.green
+                      00:00:00
+                / %p
+                /   Setup Complete
+                /   %a{:href => "#"} info
+                / %p
+                / %p
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      0 Skipped
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      0 Failed
+                  .item
+                    %i.check.circle.green.icon
+                    .content
+                      98 Passed
+                  .item
+                    %i.wait.icon
+                    .content
+                      00:00:00
+                / %p 0 Skipped
+                / %p 0 Failed
+                / %p 98 Passed
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.file.outline.icon
+                    .content
+                      Logs Collected
+                  .item
+                    &nbsp;
+                  .item
+                    %i.cube.icon
+                    .content
+                      00:00:00 CPU
+                  .item
+                    %i.wait.icon
+                    .content
+                      %strong
+                        00:00:00
+                      Total
+                / %p Logs Collected
+                / %p 
+                / %p
+                / %p 00:00:00
+
+
+          
+
+
 
 
 

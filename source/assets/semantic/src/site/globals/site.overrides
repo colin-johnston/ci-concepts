@@ -115,3 +115,28 @@ th.collapsing {
   min-width: 224px !important;
   margin-bottom: .5em;
 }
+
+
+// idea2 main session nav 
+
+.horizontal.list.massive.session .icon.search.input {
+  font-size: .575em !important;
+}
+
+.horizontal.list.massive.session .ui.pointing.dropdown > .menu:after {
+  box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15) !important;
+}
+
+// idea1 steps and grid
+
+.ui.five.small.steps.v1 {
+  margin-top: .5em !important;
+}
+
+.ui.five.column.padded.grid.v1 > .row {
+  padding-top: 0 !important;
+}
+
+.ui.five.column.padded.grid.v1 .ui.basic.segment {
+  padding: .5em .5em !important;
+}

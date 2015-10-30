@@ -22,15 +22,49 @@ title: "Idea 2"
     .sixteen.wide.column
       
       
+      / %a.ui.basic.button.toggle.session
+      /   %i.sidebar.icon
+      / .ui.horizontal.list.massive.session
+      /   %a.item
+      /     solanolabs
+      /   .item 
+      /     %i.right.chevron.grey.tiny.icon
+      /   %a.item
+      /     tddium_system
+
       %a.ui.basic.button.toggle.session
         %i.sidebar.icon
       .ui.horizontal.list.massive.session
-        %a.item
-          solanolabs
+        .item
+          .ui.floating.dropdown.top.left.pointing
+            %a.text solanolabs
+            .menu
+              .ui.icon.search.input
+                %i.search.icon
+                %input{:placeholder => "Search Organizations", :type => "text"}/
+              .scrolling.menu
+                .item electronspin
+                .item semantic-ui
+                .item semipermeable
+                .item.active.disabled solanolabs
+                .item tddium
         .item 
-          %i.right.chevron.grey.tiny.icon
-        %a.item
-          tddium_system
+          %i.right.chevron.grey.tiny.icon       
+        .item
+          .ui.floating.dropdown.top.left.pointing
+            %a.text tddium_site
+            .menu
+              .ui.icon.search.input
+                %i.search.icon
+                %input{:placeholder => "Search Repositories", :type => "text"}/
+              .scrolling.menu
+                .item begot
+                .item docs
+                .item.active.disabled tddium_site
+                .item tddium_system
+                .item tddium_www
+                
+                
 
 
 
@@ -155,6 +189,9 @@ title: "Idea 2"
       /     %p Test info
 
     .four.wide.column
+      
+      
+
       .ui.secondary.segment
         %h4.ui.header Recent Activity
         .ui.relaxed.divided.list

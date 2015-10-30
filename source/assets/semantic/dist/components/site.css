@@ -31,7 +31,7 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.4285em;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   font-smoothing: antialiased;
 }
 
@@ -120,32 +120,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 
 
@@ -239,4 +239,19 @@ th.collapsing {
 .vertical.sidebar.menu .item .search.button {
   min-width: 224px !important;
   margin-bottom: .5em;
+}
+.horizontal.list.massive.session .icon.search.input {
+  font-size: .575em !important;
+}
+.horizontal.list.massive.session .ui.pointing.dropdown > .menu:after {
+  box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15) !important;
+}
+.ui.five.small.steps.v1 {
+  margin-top: .5em !important;
+}
+.ui.five.column.padded.grid.v1 > .row {
+  padding-top: 0 !important;
+}
+.ui.five.column.padded.grid.v1 .ui.basic.segment {
+  padding: .5em .5em !important;
 }

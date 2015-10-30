@@ -321,7 +321,7 @@
 }
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
 }
 
 /*--------------
