@@ -700,6 +700,11 @@ th.collapsing {
   background-color: #ADB3B9 !important;
 }
 
+.ui.inverted.right.sidebar,
+.ui.inverted.right.inline.vertical.sidebar.menu {
+  background-color: #ADB3B9 !important;
+}
+
 .solanoBlueBG {
   background-color: #002E5D !important;
 }
@@ -738,7 +743,7 @@ th.collapsing {
   margin-left: .5em;
 }
 
-.four.wide.column > .ui.search.dropdown {
+.four.wide.column .ui.search.dropdown {
   min-width: 277px;
   margin-bottom: 1em;
 }
@@ -790,6 +795,11 @@ th.collapsing {
 
 .ui.five.column.padded.grid.v1 .ui.basic.segment {
   padding: .5em .5em !important;
+}
+
+.ui.green.big.label.v1 {
+  width: 100% !important;
+  margin-bottom: 1em !important;
 }
 /*!
  * # Semantic UI 2.1.4 - Button
@@ -24998,6 +25008,68 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
+
+/*******************************
+             Card
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+/* Shadow */
+
+/* Card */
+
+/* Card Group */
+
+/* Consecutive Cards */
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Image */
+
+/* Content */
+
+/* Header */
+
+/* Metadata */
+
+/* Icons */
+
+/* Links */
+
+/* Description */
+
+/* Content Image */
+
+/* Avatar Image */
+
+/* Paragraph */
+
+/* Dimmer */
+
+/* Additional Content */
+
+/* Extra Links */
+
+/* Buttons */
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Link */
+
+/* Card Count */
+
+/* Stackable */
+
+/* Sizes */
+
+/* Colored */
 /*!
  * # Semantic UI 2.1.4 - Comment
  * http://github.com/semantic-org/semantic-ui/

@@ -184,6 +184,10 @@ th.collapsing {
 .ui.inverted.left.inline.vertical.sidebar.menu {
   background-color: #ADB3B9 !important;
 }
+.ui.inverted.right.sidebar,
+.ui.inverted.right.inline.vertical.sidebar.menu {
+  background-color: #ADB3B9 !important;
+}
 .solanoBlueBG {
   background-color: #002E5D !important;
 }
@@ -213,7 +217,7 @@ th.collapsing {
   color: #DCDDDE;
   margin-left: .5em;
 }
-.four.wide.column > .ui.search.dropdown {
+.four.wide.column .ui.search.dropdown {
   min-width: 277px;
   margin-bottom: 1em;
 }
@@ -254,4 +258,8 @@ th.collapsing {
 }
 .ui.five.column.padded.grid.v1 .ui.basic.segment {
   padding: .5em .5em !important;
+}
+.ui.green.big.label.v1 {
+  width: 100% !important;
+  margin-bottom: 1em !important;
 }

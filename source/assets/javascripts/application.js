@@ -39,3 +39,7 @@ $('.sortable.table')
 $('.ui.dropdown')
   .dropdown()
 ;
+
+$('.menu .item')
+  .tab()
+;

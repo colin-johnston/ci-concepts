@@ -31,6 +31,10 @@ th.collapsing {
   background-color: #ADB3B9 !important;
 }
 
+.ui.inverted.right.sidebar, .ui.inverted.right.inline.vertical.sidebar.menu {
+  // background-color: @solanoBlue !important;
+  background-color: #ADB3B9 !important;
+}
 
 .solanoBlueBG {
   background-color: @solanoBlue !important;
@@ -70,7 +74,7 @@ th.collapsing {
 
 // sidebar buttons search 
 
-.four.wide.column > .ui.search.dropdown {
+.four.wide.column .ui.search.dropdown {
     min-width: 277px; // makes no sense - fluid column
     margin-bottom: 1em;
 }
@@ -139,4 +143,12 @@ th.collapsing {
 
 .ui.five.column.padded.grid.v1 .ui.basic.segment {
   padding: .5em .5em !important;
+}
+
+
+// build passed label
+
+.ui.green.big.label.v1 {
+  width: 100% !important;
+  margin-bottom: 1em !important;
 }
