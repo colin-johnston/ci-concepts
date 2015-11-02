@@ -1,8 +1,10 @@
 # README #
 
-### CI Concepts #2 ###
+## CI Concepts ##
 
 Visual and Interaction Design Simulation of Hypothetical v2 Solano CI
+
+### concept2 (concept2-session-info-plus) ###
 
 ![concept2-main.png](https://bitbucket.org/repo/qqdRaj/images/2118996502-concept2-main.png)
 
