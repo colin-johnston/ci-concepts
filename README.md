@@ -2,7 +2,7 @@
 
 ### CI Concepts #2 ###
 
-* Visual and Interaction Design Simulation of Hypothetical v2 Solano CI
+Visual and Interaction Design Simulation of Hypothetical v2 Solano CI
 
 ### Running Locally ###
 
