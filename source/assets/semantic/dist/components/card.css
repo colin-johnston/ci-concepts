@@ -174,14 +174,14 @@
   display: block;
   margin: '';
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* Default Header Size */
 .ui.cards > .card > .content > .header:not(.ui),
 .ui.card > .content > .header:not(.ui) {
   font-weight: bold;
-  font-size: 1.3125em;
+  font-size: 1em;
   margin-top: -0.21425em;
   line-height: 1.2857em;
 }
@@ -270,7 +270,7 @@
 
 .ui.cards > .card .meta,
 .ui.card .meta {
-  font-size: 1em;
+  font-size: 0.875em;
   color: rgba(0, 0, 0, 0.4);
 }
 .ui.cards > .card .meta *,
@@ -307,7 +307,7 @@
 /* Header */
 .ui.cards > .card > .content > a.header,
 .ui.card > .content > a.header {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.6);
 }
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
@@ -965,58 +965,6 @@ a.ui.card:hover,
 --------------------*/
 
 
-/* Shadow */
-
-/* Card */
-
-/* Card Group */
-
-/* Consecutive Cards */
-
-/*-------------------
-       Content
---------------------*/
-
-
-/* Image */
-
-/* Content */
-
 /* Header */
 
 /* Metadata */
-
-/* Icons */
-
-/* Links */
-
-/* Description */
-
-/* Content Image */
-
-/* Avatar Image */
-
-/* Paragraph */
-
-/* Dimmer */
-
-/* Additional Content */
-
-/* Extra Links */
-
-/* Buttons */
-
-/*-------------------
-      Variations
---------------------*/
-
-
-/* Link */
-
-/* Card Count */
-
-/* Stackable */
-
-/* Sizes */
-
-/* Colored */

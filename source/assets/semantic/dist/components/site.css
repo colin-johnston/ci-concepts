@@ -218,13 +218,13 @@ th.collapsing {
   margin-left: .5em;
 }
 .four.wide.column .ui.search.dropdown {
-  min-width: 277px;
+  width: 100% !important;
   margin-bottom: 1em;
 }
-.button.toggle.session {
+.button.session {
   float: left;
-  padding: 0.6875em .5em 0.6875em 1em;
-  margin-right: 2em;
+  padding: 0.6875em .5em 0.6875em 1em !important;
+  margin-right: 2em !important;
 }
 .ui.list.session {
   margin: 0;
@@ -261,5 +261,16 @@ th.collapsing {
 }
 .ui.green.big.label.v1 {
   width: 100% !important;
+  margin-bottom: 1em !important;
+  text-align: center !important;
+}
+.ui.green.big.label.v1 > .icon {
+  margin: 0em 0.75em 0em -0.5em !important;
+}
+.ui.segment .ui.card {
+  margin: 1.5em 0 2em !important;
+}
+.ui.card .description,
+.ui.card .author {
   margin-bottom: 1em !important;
 }

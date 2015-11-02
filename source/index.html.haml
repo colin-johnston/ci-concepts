@@ -32,8 +32,8 @@ title: "Concept 1"
       /   %a.item
       /     tddium_system
 
-      %a.ui.basic.button.toggle.session
-        %i.home.icon
+      %a.ui.basic.button.session
+        %i.info.circle.icon
       .ui.horizontal.list.massive.session
         .item
           .ui.floating.dropdown.top.left.pointing
@@ -46,7 +46,7 @@ title: "Concept 1"
                 .item electronspin
                 .item semantic-ui
                 .item semipermeable
-                .item.active.disabled solanolabs
+                .item.active solanolabs
                 .item tddium
         .item 
           %i.right.chevron.grey.tiny.icon       
@@ -60,7 +60,7 @@ title: "Concept 1"
               .scrolling.menu
                 .item begot
                 .item docs
-                .item.active.disabled tddium_site
+                .item.active tddium_site
                 .item tddium_system
                 .item tddium_www
                 
@@ -154,7 +154,7 @@ title: "Concept 1"
                     .content
                       6 Workers
                   .item
-                    %i.flag.icon
+                    %i.play.icon
                     .content
                       09:58:00
                   .item
@@ -356,23 +356,27 @@ title: "Concept 1"
         .ui.card
           .content
             .header
-              Commit 2744c6e
-            .meta
-              %span.right.floated.time a day ago
-              %span.category
-                %a
+              Recent Commits
+              %span.right.floated 
+                %a PR #364
+          .content
             .description
               Handle ref naming error
+            .meta
+              %span.right.floated.time 
+                5 days ago
+              %span.category
+                %strong 
+                  %a 2744c6e
+            .meta
+              %span.author
+                / =image_tag 'semantic-ui/wireframe/image-square.png', class: "ui avatar image"
+                / %a afurm
+                %strong afurm
+                afurm@solanolabs.com
           .ui.bottom.attached.button
             %i.github.icon
             View on Github
-          
-
-
-        %p Recent commits:
-
-        %p afurm (afurm@solanolabs.com)
-
 
 
         / sidebar session search buttons

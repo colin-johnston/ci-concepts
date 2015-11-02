@@ -1,3 +1,20 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+/*******************************
+             Card
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+/* Header */
+@headerFontSize: @relativeMedium;
+@headerColor: @mutedTextColor;
+
+/* Metadata */
+@metaFontSize: @relativeTiny;
+@metaSpacing: 0.3em;
+@metaColor: @lightTextColor;
