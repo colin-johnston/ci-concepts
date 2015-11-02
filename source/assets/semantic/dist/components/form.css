@@ -56,7 +56,7 @@
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.25rem 0em;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -108,7 +108,7 @@
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -124,7 +124,7 @@
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -164,7 +164,7 @@
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 0.875em;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -317,22 +317,22 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(150, 150, 150, 0.87);
+  color: rgba(240, 240, 240, 0.87);
 }
 .ui.form ::-ms-input-placeholder {
-  color: rgba(150, 150, 150, 0.87);
+  color: rgba(240, 240, 240, 0.87);
 }
 .ui.form ::-moz-placeholder {
-  color: rgba(150, 150, 150, 0.87);
+  color: rgba(240, 240, 240, 0.87);
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(99, 99, 99, 0.87);
+  color: rgba(189, 189, 189, 0.87);
 }
 .ui.form :focus::-ms-input-placeholder {
-  color: rgba(99, 99, 99, 0.87);
+  color: rgba(189, 189, 189, 0.87);
 }
 .ui.form :focus::-moz-placeholder {
-  color: rgba(99, 99, 99, 0.87);
+  color: rgba(189, 189, 189, 0.87);
 }
 
 /* Error Placeholder */
@@ -721,7 +721,7 @@
 .ui.inverted.form input[type="url"] {
   background: #FFFFFF;
   border-color: rgba(255, 255, 255, 0.1);
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   box-shadow: none;
 }
 
@@ -740,7 +740,7 @@
 }
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.25rem 0em;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   font-size: 0.9375em;
   font-weight: bold;
   text-transform: none;
@@ -980,7 +980,7 @@
   vertical-align: baseline;
   font-size: 0.9375em;
   font-weight: bold;
-  color: rgba(10, 10, 10, 0.87);
+  color: rgba(100, 100, 100, 0.87);
   text-transform: none;
 }
 

@@ -1,13 +1,11 @@
 ---
-title: "Home"
+title: "Concept 1"
 ---
 
 -# = partial "partials/sidebar"
 
-.pusher
+.pusher.ci
   .ui.grid
-    / %h1.ui.header Placeholder Home Page
-    / %p Haml Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat blanditiis tempora officiis cupiditate necessitatibus nemo fugit numquam voluptatum dolorem non, debitis, saepe, beatae, molestias. Minima enim cupiditate quibusdam voluptatum odio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, ea, in magnam animi distinctio nam consequatur harum praesentium, nobis neque a nemo. Error illum, doloremque repudiandae, omnis tempora perspiciatis natus?
 
     / .ui.horizontal.list
     /   .item
@@ -21,15 +19,100 @@ title: "Home"
     /   .item
     /     %p tddium_site
 
-    .sixteen.wide.column
+    .twelve.wide.column
+      
+      
+      / %a.ui.basic.button.toggle.session
+      /   %i.sidebar.icon
+      / .ui.horizontal.list.massive.session
+      /   %a.item
+      /     solanolabs
+      /   .item 
+      /     %i.right.chevron.grey.tiny.icon
+      /   %a.item
+      /     tddium_system
 
-      .ui.button.basic.icon.dashboard
-        %i.arrow.left.icon 
-        Dashboard
-      .ui.breadcrumb.session
-        %a.section solanolabs
-        %i.right.chevron.icon.divider
-        %a.section tddium_site
+      %a.ui.basic.button.session
+        %i.info.circle.icon
+      .ui.horizontal.list.massive.session
+        .item
+          .ui.floating.dropdown.top.left.pointing
+            %a.text solanolabs
+            .menu
+              .ui.icon.search.input
+                %i.search.icon
+                %input{:placeholder => "Search Organizations", :type => "text"}/
+              .scrolling.menu
+                .item electronspin
+                .item semantic-ui
+                .item semipermeable
+                .item.active solanolabs
+                .item tddium
+        .item 
+          %i.right.chevron.grey.tiny.icon       
+        .item
+          .ui.floating.dropdown.top.left.pointing
+            %a.text tddium_site
+            .menu
+              .ui.icon.search.input
+                %i.search.icon
+                %input{:placeholder => "Search Repositories", :type => "text"}/
+              .scrolling.menu
+                .item begot
+                .item docs
+                .item.active tddium_site
+                .item tddium_system
+                .item tddium_www
+                
+                
+
+
+
+    -# .sixteen.wide.column
+
+      / .ui.button.basic.icon.dashboard
+      /   %i.arrow.left.icon 
+      /   Dashboard
+      
+      
+
+      / .ui.button.basic.icon.dashboard
+      /   %i.arrow.left.icon 
+      /   Dashboard
+      
+      / %select.ui.search.dropdown
+      /   %option.blue{:value => ""} solanolabs
+      /   %option{:value => "1"} electronspin
+      /   %option{:value => "2"} semipermeable
+      /   %option{:value => "3"} tddium
+      /   %option{:value => "4"} semantic-ui
+      / %i.right.chevron.icon
+      / %select.ui.search.dropdown
+      /   %option.blue{:value => ""} tddium_site
+      /   %option{:value => "1"} tddium_www
+      /   %option{:value => "2"} tddium_system
+      /   %option{:value => "3"} docs
+      /   %option{:value => "4"} begot
+      / %i.right.chevron.icon.small
+      / %select.ui.search.dropdown
+      /   %option.blue{:value => ""} CISRV-1205
+      /   %option{:value => "1"} CISRV-1006
+      /   %option{:value => "2"} timings-display-prototype
+      /   %option{:value => "3"} codepipeline_upload
+      /   %option{:value => "4"} cisrv-1303-flush-scm-cache
+      / %i.right.chevron.icon
+      / %select.ui.search.dropdown
+      /   %option.blue{:value => ""} Session #1914902
+      /   %option{:value => "1"} Session #1914901
+      /   %option{:value => "2"} Session #1914900
+      /   %option{:value => "3"} Session #1914807
+      /   %option{:value => "4"} Session #1914789
+      
+
+      / .ui.breadcrumb.session
+      /   %a.section solanolabs
+      /   %i.right.chevron.icon.divider
+      /   %a.section tddium_site
 
     .twelve.wide.column
 
@@ -60,35 +143,169 @@ title: "Home"
             .title Finish
             /.description Lorem ipsum dolor sit amet
 
+      .twelve.wide.column
+        .ui.five.column.padded.grid.v1
+          .row
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.settings.icon
+                    .content
+                      6 Workers
+                  .item
+                    %i.play.icon
+                    .content
+                      09:58:00
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      98 Tests Ready
+                  .item
+                    %i.wait.icon
+                    .content.green
+                      00:00:00
+                / %p 6 Workers
+                / %p Start: 09:58:00
+                / %p 98 Tests Ready
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      Workers Up
+                  .item
+                    &nbsp;
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      0 Tests Waiting
+                  .item
+                    %i.wait.icon
+                    .content.green
+                      00:00:00
+                / %p Workers Assigned
+                / %p 0 Tests Waiting
+                / %p 
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      Setup Complete
+                  .item
+                    &nbsp;
+                  .item
+                    &nbsp;
+                  .item
+                    %i.wait.icon
+                    .content.green
+                      00:00:00
+                / %p
+                /   Setup Complete
+                /   %a{:href => "#"} info
+                / %p
+                / %p
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      0 Skipped
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      0 Failed
+                  .item
+                    %i.check.circle.icon
+                    .content
+                      98 Passed
+                  .item
+                    %i.wait.icon
+                    .content
+                      00:00:00
+                / %p 0 Skipped
+                / %p 0 Failed
+                / %p 98 Passed
+                / %p 00:00:00
+            .column
+              .ui.basic.segment
+                .ui.list
+                  .item
+                    %i.file.outline.icon
+                    .content
+                      Logs Collected
+                  .item
+                    &nbsp;
+                  .item
+                    %i.cube.icon
+                    .content
+                      00:02:55 CPU
+                  .item
+                    %i.wait.icon
+                    .content
+                      %strong
+                        00:03:26
+                      Total
+                / %p Logs Collected
+                / %p 
+                / %p
+                / %p 00:00:00
 
+      .ui.hidden.divider
 
-      %table.ui.sortable.table
-        %thead
-          %tr
-            %th Name
-            %th.collapsing.descending Status
-            %th.collapsing Duration
-        %tbody
-          %tr.positive
-            %td test1
-            %td.collapsing passed
-            %td.collapsing 5 sec
-          %tr.positive
-            %td test2
-            %td.collapsing passed
-            %td.collapsing 4 sec
-          %tr.positive
-            %td test3
-            %td.collapsing passed
-            %td.collapsing 3 sec
-          %tr.warning
-            %td test4
-            %td.collapsing warnings
-            %td.collapsing 0 sec
-          %tr.positive
-            %td test5
-            %td.collapsing passed
-            %td.collapsing 1 sec
+      // tabs - test 
+
+      .ui.pointing.secondary.menu
+        %a.active.item Tests
+        %a.item Config File
+        %a.item Logs
+      .ui.active.tab
+        %table.ui.sortable.table
+          %thead
+            %tr
+              %th Name
+              %th.collapsing.descending Status
+              %th.collapsing Duration
+          %tbody
+            %tr.positive
+              %td spec/emcee/common/attach_spec.rb
+              %td.collapsing passed
+              %td.collapsing 5 sec
+            %tr.positive
+              %td spec/deploy/emcee-deploy_spec.rb
+              %td.collapsing passed
+              %td.collapsing 4 sec
+            %tr.positive
+              %td spec/emcee/cachesrv_spec.rb
+              %td.collapsing passed
+              %td.collapsing 3 sec
+            %tr.warning
+              %td spec/emcee/common/ant_junit_xml_spec.rb
+              %td.collapsing warnings
+              %td.collapsing 0 sec
+            %tr.positive
+              %td spec/ci/destro_lockfile_spec.rb
+              %td.collapsing passed
+              %td.collapsing 1 sec
+            %tr.positive
+              %td bundle exec rspec spec/emcee/gotexec_spec.rb
+              %td.collapsing passed
+              %td.collapsing 1 sec
+            %tr.positive
+              %td spec/ci/destro_spec.rb
+              %td.collapsing passed
+              %td.collapsing 1 sec
+            %tr.positive
+              %td make -C build_agent test
+              %td.collapsing passed
+              %td.collapsing 1 sec
 
 
             
@@ -106,21 +323,93 @@ title: "Home"
       /     %p Test info
 
     .four.wide.column
-      .ui.secondary.segment
-        %h4.ui.header Recent Activity
-        .ui.relaxed.divided.list
-          .item
-            %i.large.github.middle.aligned.icon
-            .content
-              %a.header solanolabs/tddium_site
-              .description Updated 10 mins ago
-          .item
-            %i.large.github.middle.aligned.icon
-            .content
-              %a.header solanolabs/tddium_site
-              .description Updated 22 mins ago
-          .item
-            %i.large.github.middle.aligned.icon
-            .content
-              %a.header solanolabs/tddium_site
-              .description Updated 34 mins ago
+
+      / recent activity - HOLD
+
+      / .ui.secondary.segment
+      /   %h4.ui.header Recent Activity
+      /   .ui.relaxed.divided.list
+      /     .item
+      /       %i.large.github.middle.aligned.icon
+      /       .content
+      /         %a.header solanolabs/tddium_site
+      /         .description Updated 10 mins ago
+      /     .item
+      /       %i.large.github.middle.aligned.icon
+      /       .content
+      /         %a.header solanolabs/tddium_site
+      /         .description Updated 22 mins ago
+      /     .item
+      /       %i.large.github.middle.aligned.icon
+      /       .content
+      /         %a.header solanolabs/tddium_site
+      /         .description Updated 34 mins ago
+      
+      .ui.segment
+        .ui.green.big.label.v1
+          %i.checkmark.icon
+          Build Passed
+        %p 
+          98 tests started a day ago by 
+          %a afurm@solanolabs.com 
+          from ci
+        .ui.card
+          .content
+            .header
+              Recent Commits
+              %span.right.floated 
+                %a PR #364
+          .content
+            .description
+              Handle ref naming error
+            .meta
+              %span.right.floated.time 
+                5 days ago
+              %span.category
+                %strong 
+                  %a 2744c6e
+            .meta
+              %span.author
+                / =image_tag 'semantic-ui/wireframe/image-square.png', class: "ui avatar image"
+                / %a afurm
+                %strong afurm
+                afurm@solanolabs.com
+          .ui.bottom.attached.button
+            %i.github.icon
+            View on Github
+
+
+        / sidebar session search buttons
+
+        .ui.floating.dropdown.labeled.search.icon.button
+          %i.check.circle.green.icon
+          %span.text Session #1914902
+          .menu 
+            .item 
+              %i.check.circle.icon.green
+              Session #1914901
+            .item 
+              %i.check.circle.icon.green
+              Session #1914900
+            .item 
+              %i.check.circle.icon.green
+              Session #1914807
+            .item 
+              %i.check.circle.icon.green
+              Session #1914789
+
+        .ui.floating.dropdown.labeled.search.icon.button
+          %i.fork.icon
+          %span.text CISRV-1205
+          .menu 
+            .item CISRV-1006
+            .item timings-display-prototype
+            .item codepipeline_upload
+            .item cisrv-1303-flush-scm-cache
+        
+
+
+      
+
+
+

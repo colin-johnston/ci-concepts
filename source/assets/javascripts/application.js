@@ -13,6 +13,7 @@ $('.ui.sidebar.left')
     closable: false
   })
   .sidebar('attach events', '.menu .item.toggle')
+  // .sidebar('attach events', '.button.toggle')
 ;
 
 $('.ui.sidebar.right')
@@ -33,4 +34,12 @@ $('.ui.accordion.test1')
 
 $('.sortable.table')
   .tablesort()
+;
+
+$('.ui.dropdown')
+  .dropdown()
+;
+
+$('.menu .item')
+  .tab()
 ;

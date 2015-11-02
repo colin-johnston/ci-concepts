@@ -1,3 +1,22 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* Solano Buttons */
+.ui.solano.button {
+  background-color: @solanoBlue;
+  color: @invertedTextColor;
+  text-shadow: @invertedTextShadow;
+  background-image: @coloredBackgroundImage;
+  box-shadow: @coloredBoxShadow;
+}
+.ui.solano.button:hover {
+  background-color: @solanoHoverColor;
+  color: @invertedTextColor;
+  text-shadow: @invertedTextShadow;
+}
+.ui.solano.button:active {
+  background-color: @solanoDownColor;
+  color: @invertedTextColor;
+  text-shadow: @invertedTextShadow;
+}

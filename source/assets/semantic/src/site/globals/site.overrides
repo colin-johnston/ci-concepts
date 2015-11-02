@@ -2,7 +2,12 @@
          Site Overrides
 *******************************/
 
-.pusher {
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pusher.ci {
   margin-top: 100px;
   margin-left: 2em;
   margin-right: 2em;
@@ -21,6 +26,143 @@ th.collapsing {
   min-width: 110px;
 }
 
-// .sixteen.column {
-//   margin: 0 2em;
-// }
+.ui.inverted.left.sidebar, .ui.inverted.left.inline.vertical.sidebar.menu {
+  // background-color: @solanoBlue !important;
+  background-color: #ADB3B9 !important;
+}
+
+.ui.inverted.right.sidebar, .ui.inverted.right.inline.vertical.sidebar.menu {
+  // background-color: @solanoBlue !important;
+  background-color: #ADB3B9 !important;
+}
+
+.solanoBlueBG {
+  background-color: @solanoBlue !important;
+}
+.solanoMediumBlueBG {
+  background-color: @solanoMediumBlue !important;
+}
+.solanoLightBlueBG {
+  background-color: @solanoLightBlue !important;
+}
+.solanoBlue {
+  color: @solanoBlue !important;
+}
+.solanoMediumBlue {
+  color: @solanoMediumBlue !important;
+}
+.solanoLightBlue {
+  color: @solanoLightBlue !important;
+}
+
+
+
+.ui.dropdown > .default.text, .ui.default.dropdown > .text {
+  color: @linkColor !important;
+}
+
+.ui.search.dropdown > .text {
+  color: @linkColor !important;
+}
+
+
+.sixteen.wide.column > .right.chevron.icon {
+  color: @lightGrey;
+  margin-left: .5em;
+}
+
+
+// sidebar buttons search 
+
+.four.wide.column .ui.search.dropdown {
+    // min-width: 277px; // makes no sense - fluid column
+    width: 100% !important;
+    margin-bottom: 1em;
+}
+
+
+// main button toggle 
+
+.button.session {
+  float: left;
+  padding: 0.6875em .5em 0.6875em 1em !important;
+  margin-right: 2em !important;
+}
+
+// main header
+
+.ui.list.session {
+  margin: 0;
+  line-height: 1.1em;
+  margin-top: -6px !important;
+}
+
+.ui.list.session > .item {
+    margin-left: .5em !important;
+}
+
+.ui.list.session > .item > i.icon:only-child {
+  vertical-align: middle !important;
+}
+
+
+
+
+// smaller step icons!
+.ui.steps .step > .icon {
+    font-size: 1.5em !important;
+}
+
+
+// left sidebar search buttons
+
+.vertical.sidebar.menu .item .search.button {
+  min-width: 224px !important;
+  margin-bottom: .5em;
+}
+
+
+// idea2 main session nav 
+
+.horizontal.list.massive.session .icon.search.input {
+  font-size: .575em !important;
+}
+
+.horizontal.list.massive.session .ui.pointing.dropdown > .menu:after {
+  box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15) !important;
+}
+
+// idea1 steps and grid
+
+.ui.five.small.steps.v1 {
+  margin-top: .5em !important;
+}
+
+.ui.five.column.padded.grid.v1 > .row {
+  padding-top: 0 !important;
+}
+
+.ui.five.column.padded.grid.v1 .ui.basic.segment {
+  padding: .5em .5em !important;
+}
+
+
+// build passed label
+
+.ui.green.big.label.v1 {
+  width: 100% !important;
+  margin-bottom: 1em !important;
+  text-align: center !important;
+}
+
+.ui.green.big.label.v1 > .icon {
+  margin: 0em .75em 0em -.5em !important;
+}
+
+.ui.segment .ui.card {
+  margin: 1.5em 0 2em !important;
+}
+
+.ui.card .description, .ui.card .author {
+  margin-bottom: 1em !important;
+}

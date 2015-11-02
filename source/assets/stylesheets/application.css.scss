@@ -7,6 +7,16 @@
 .ui.menu .item > img:not(.ui) {
   display: inline-block;
   vertical-align: middle;
-  margin: -0.3em 0em;
+  margin: -0.3em 10px;
   width: 144px;
+}
+
+
+.ui.bottom.attached.button {
+  margin: 0 !important;
+  width: auto !important;
+}
+
+.ui.avatar.image {
+    margin-right: 0.625em !important;
 }
