@@ -63,10 +63,21 @@ title: "Concept 1"
                 .item.active tddium_site
                 .item tddium_system
                 .item tddium_www
-                
-                
-
-
+        .item 
+          %i.right.chevron.grey.tiny.icon       
+        .item
+          .ui.floating.dropdown.top.left.pointing
+            %a.text CISRV-1205
+            .menu
+              .ui.icon.search.input
+                %i.search.icon
+                %input{:placeholder => "Search Branches", :type => "text"}/
+              .scrolling.menu
+                .item CISRV-1006
+                .item.active CISRV-1205
+                .item cisrv-1303-flush-scm-cache
+                .item codepipeline_upload
+                .item timings-display-prototype
 
     -# .sixteen.wide.column
 
@@ -353,6 +364,22 @@ title: "Concept 1"
           98 tests started a day ago by 
           %a afurm@solanolabs.com 
           from ci
+        .ui.floating.dropdown.labeled.search.icon.button
+          %i.check.circle.green.icon
+          %span.text Session #1914902
+          .menu 
+            .item 
+              %i.check.circle.icon.green
+              Session #1914901
+            .item 
+              %i.check.circle.icon.green
+              Session #1914900
+            .item 
+              %i.check.circle.icon.green
+              Session #1914807
+            .item 
+              %i.check.circle.icon.green
+              Session #1914789
         .ui.card
           .content
             .header
@@ -381,31 +408,31 @@ title: "Concept 1"
 
         / sidebar session search buttons
 
-        .ui.floating.dropdown.labeled.search.icon.button
-          %i.check.circle.green.icon
-          %span.text Session #1914902
-          .menu 
-            .item 
-              %i.check.circle.icon.green
-              Session #1914901
-            .item 
-              %i.check.circle.icon.green
-              Session #1914900
-            .item 
-              %i.check.circle.icon.green
-              Session #1914807
-            .item 
-              %i.check.circle.icon.green
-              Session #1914789
+        / .ui.floating.dropdown.labeled.search.icon.button
+        /   %i.check.circle.green.icon
+        /   %span.text Session #1914902
+        /   .menu 
+        /     .item 
+        /       %i.check.circle.icon.green
+        /       Session #1914901
+        /     .item 
+        /       %i.check.circle.icon.green
+        /       Session #1914900
+        /     .item 
+        /       %i.check.circle.icon.green
+        /       Session #1914807
+        /     .item 
+        /       %i.check.circle.icon.green
+        /       Session #1914789
 
-        .ui.floating.dropdown.labeled.search.icon.button
-          %i.fork.icon
-          %span.text CISRV-1205
-          .menu 
-            .item CISRV-1006
-            .item timings-display-prototype
-            .item codepipeline_upload
-            .item cisrv-1303-flush-scm-cache
+        / .ui.floating.dropdown.labeled.search.icon.button
+        /   %i.fork.icon
+        /   %span.text CISRV-1205
+        /   .menu 
+        /     .item CISRV-1006
+        /     .item timings-display-prototype
+        /     .item codepipeline_upload
+        /     .item cisrv-1303-flush-scm-cache
         
 
 

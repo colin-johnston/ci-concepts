@@ -1,3 +1,32 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+/*******************************
+             Feed
+*******************************/
+
+@dateFontSize: @relativeTiny;
+@dateMargin: -0.25rem 0em 0.25em;
+// @dateMargin: 0em 0em 0.25em;
+@dateColor: rgba(255,255,255,0.7);
+
+/* Summary */
+@summaryMargin: 0em;
+@summaryFontSize: @relativeTiny;
+@summaryFontWeight: bold;
+// @summaryColor: rgba(255,255,255,0.8);
+@summaryColor: @mutedTextColor;
+
+/* Extra Summary Data */
+@extraMargin: 0.5em 0em 0em;
+@extraBackground: none;
+@extraPadding: 0em;
+// @extraColor: @lightTextColor;
+
+/* Extra Text */
+@extraTextPadding: 0em;
+@extraTextPointer: none;
+@extraTextFontSize: @relativeTiny;
+@extraTextLineHeight: @lineHeight;
+@extraTextMaxWidth: 500px;

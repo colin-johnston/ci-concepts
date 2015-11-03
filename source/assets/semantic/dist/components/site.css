@@ -168,10 +168,33 @@ body {
   margin-left: 2em;
   margin-right: 2em;
 }
+.ui.inverted.menu a.item {
+  font-weight: bold !important;
+}
 .ui.visible.push.sidebar,
 .ui.left.push.sidebar,
 .ui.right.sidebar {
   top: 63px;
+}
+.ui.right.sidebar {
+  width: 345px !important;
+}
+.event .icon {
+  float: right;
+  opacity: 0.75;
+}
+.ui.right.sidebar .ui.feed .content .extra-text {
+  margin-top: .5em !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ui.right.sidebar .ui.feed .content .extra-text.first {
+  margin-top: -0.175rem !important;
+}
+.ui.right.sidebar .ui.feed > .event {
+  margin: 1rem 0em .5rem !important;
+}
+.ui.right.sidebar .ui.feed .content .ui.segment {
+  background: rgba(255, 255, 255, 0.5) !important;
 }
 .ui.breadcrumb.session {
   margin: 0em 1em;
@@ -182,11 +205,14 @@ th.collapsing {
 }
 .ui.inverted.left.sidebar,
 .ui.inverted.left.inline.vertical.sidebar.menu {
-  background-color: #ADB3B9 !important;
+  background-color: #002E5D !important;
 }
 .ui.inverted.right.sidebar,
 .ui.inverted.right.inline.vertical.sidebar.menu {
-  background-color: #ADB3B9 !important;
+  background-color: #b4bdc3 !important;
+}
+.ui.inverted.right.inline.vertical.sidebar.menu .setting.icon {
+  margin-right: 5px !important;
 }
 .solanoBlueBG {
   background-color: #002E5D !important;
@@ -219,7 +245,6 @@ th.collapsing {
 }
 .four.wide.column .ui.search.dropdown {
   width: 100% !important;
-  margin-bottom: 1em;
 }
 .button.session {
   float: left;
@@ -268,9 +293,12 @@ th.collapsing {
   margin: 0em 0.75em 0em -0.5em !important;
 }
 .ui.segment .ui.card {
-  margin: 1.5em 0 2em !important;
+  margin: 2em 0 1em !important;
 }
 .ui.card .description,
 .ui.card .author {
   margin-bottom: 1em !important;
+}
+.ui.segment p {
+  margin: 0 0 1.33em !important;
 }

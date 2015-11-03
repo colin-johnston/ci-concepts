@@ -3,5 +3,44 @@
 / use .labeled.icon to create large menu icons
 .ui.inverted.right.inline.vertical.sidebar.menu
   %a.item
+    %i.setting.icon 
     Notifications
-  
+  .item
+    .ui.feed
+      .event
+        .label
+          =image_tag 'ci-avatar.png', class: ""
+        .content
+          %i.close.icon
+          .date
+            3 days ago
+          .summary
+            %a Solano CI Support
+          .ui.segment
+            .extra-text.first
+              %strong System Alert
+            .extra-text
+              Solano CI will be in maintenance mode from 2:00AM to 2:30AM PST tomorrow October 20, 2015.
+              // All Queues will be frozen. All build will proceed at the end of the maintenance window. 
+      .event
+        .label
+          =image_tag 'afurm-avatar.png', class: ""
+        .content
+          %i.close.icon
+          .date
+            3 days ago
+          .summary
+            %a Andrii Furmanets
+          .ui.segment
+            .extra-text.first
+              %strong Account Linkage
+            .extra-text
+              %a afurm 
+              has requested Account Linkage between 
+              %a ukr-test 
+              and 
+              %a solanolabs.
+            .extra-text
+              Review this account linkage request in 
+              %a solano
+              Account Linkages. 

@@ -50,6 +50,7 @@
 /*---  Colors  ---*/
 
 @blue             : darken(#2185D0, 10%);
+@green : #34cc5b;
 
 
 

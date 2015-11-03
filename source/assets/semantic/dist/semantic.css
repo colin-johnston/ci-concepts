@@ -680,10 +680,40 @@ body {
   margin-right: 2em;
 }
 
+.ui.inverted.menu a.item {
+  font-weight: bold !important;
+}
+
 .ui.visible.push.sidebar,
 .ui.left.push.sidebar,
 .ui.right.sidebar {
   top: 63px;
+}
+
+.ui.right.sidebar {
+  width: 345px !important;
+}
+
+.event .icon {
+  float: right;
+  opacity: 0.75;
+}
+
+.ui.right.sidebar .ui.feed .content .extra-text {
+  margin-top: .5em !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ui.right.sidebar .ui.feed .content .extra-text.first {
+  margin-top: -0.175rem !important;
+}
+
+.ui.right.sidebar .ui.feed > .event {
+  margin: 1rem 0em .5rem !important;
+}
+
+.ui.right.sidebar .ui.feed .content .ui.segment {
+  background: rgba(255, 255, 255, 0.5) !important;
 }
 
 .ui.breadcrumb.session {
@@ -697,12 +727,16 @@ th.collapsing {
 
 .ui.inverted.left.sidebar,
 .ui.inverted.left.inline.vertical.sidebar.menu {
-  background-color: #ADB3B9 !important;
+  background-color: #002E5D !important;
 }
 
 .ui.inverted.right.sidebar,
 .ui.inverted.right.inline.vertical.sidebar.menu {
-  background-color: #ADB3B9 !important;
+  background-color: #b4bdc3 !important;
+}
+
+.ui.inverted.right.inline.vertical.sidebar.menu .setting.icon {
+  margin-right: 5px !important;
 }
 
 .solanoBlueBG {
@@ -745,7 +779,6 @@ th.collapsing {
 
 .four.wide.column .ui.search.dropdown {
   width: 100% !important;
-  margin-bottom: 1em;
 }
 
 .button.session {
@@ -808,12 +841,16 @@ th.collapsing {
 }
 
 .ui.segment .ui.card {
-  margin: 1.5em 0 2em !important;
+  margin: 2em 0 1em !important;
 }
 
 .ui.card .description,
 .ui.card .author {
   margin-bottom: 1em !important;
+}
+
+.ui.segment p {
+  margin: 0 0 1.33em !important;
 }
 /*!
  * # Semantic UI 2.1.4 - Button
@@ -1850,14 +1887,14 @@ th.collapsing {
 .ui.toggle.buttons .active.button,
 .ui.buttons .button.toggle.active,
 .ui.button.toggle.active {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   box-shadow: none !important;
   text-shadow: none;
   color: #FFFFFF !important;
 }
 
 .ui.button.toggle.active:hover {
-  background-color: #16ab39 !important;
+  background-color: #27bf4e !important;
   text-shadow: none;
   color: #FFFFFF !important;
 }
@@ -2870,7 +2907,7 @@ th.collapsing {
 
 .ui.green.buttons .button,
 .ui.green.button {
-  background-color: #21BA45;
+  background-color: #34cc5b;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2882,21 +2919,21 @@ th.collapsing {
 
 .ui.green.buttons .button:hover,
 .ui.green.button:hover {
-  background-color: #16ab39;
+  background-color: #27bf4e;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.green.buttons .button:focus,
 .ui.green.button:focus {
-  background-color: #0ea432;
+  background-color: #1eb946;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.green.buttons .button:active,
 .ui.green.button:active {
-  background-color: #198f35;
+  background-color: #29a449;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2905,7 +2942,7 @@ th.collapsing {
 .ui.green.buttons .active.button:active,
 .ui.green.active.button,
 .ui.green.button .active.button:active {
-  background-color: #13ae38;
+  background-color: #24c34d;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2914,35 +2951,35 @@ th.collapsing {
 
 .ui.basic.green.buttons .button,
 .ui.basic.green.button {
-  box-shadow: 0px 0px 0px 1px #21BA45 inset !important;
-  color: #21BA45 !important;
+  box-shadow: 0px 0px 0px 1px #34cc5b inset !important;
+  color: #34cc5b !important;
 }
 
 .ui.basic.green.buttons .button:hover,
 .ui.basic.green.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #16ab39 inset !important;
-  color: #16ab39 !important;
+  box-shadow: 0px 0px 0px 1px #27bf4e inset !important;
+  color: #27bf4e !important;
 }
 
 .ui.basic.green.buttons .button:focus,
 .ui.basic.green.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0ea432 inset !important;
-  color: #16ab39 !important;
+  box-shadow: 0px 0px 0px 1px #1eb946 inset !important;
+  color: #27bf4e !important;
 }
 
 .ui.basic.green.buttons .active.button,
 .ui.basic.green.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #13ae38 inset !important;
-  color: #198f35 !important;
+  box-shadow: 0px 0px 0px 1px #24c34d inset !important;
+  color: #29a449 !important;
 }
 
 .ui.basic.green.buttons .button:active,
 .ui.basic.green.button:active {
-  box-shadow: 0px 0px 0px 1px #198f35 inset !important;
-  color: #198f35 !important;
+  box-shadow: 0px 0px 0px 1px #29a449 inset !important;
+  color: #29a449 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.green.button:not(:first-child) {
@@ -4418,7 +4455,7 @@ th.collapsing {
 
 .ui.positive.buttons .button,
 .ui.positive.button {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4430,21 +4467,21 @@ th.collapsing {
 
 .ui.positive.buttons .button:hover,
 .ui.positive.button:hover {
-  background-color: #16ab39 !important;
+  background-color: #27bf4e !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:focus,
 .ui.positive.button:focus {
-  background-color: #0ea432 !important;
+  background-color: #1eb946 !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:active,
 .ui.positive.button:active {
-  background-color: #198f35 !important;
+  background-color: #29a449 !important;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4452,7 +4489,7 @@ th.collapsing {
 .ui.positive.buttons .active.button,
 .ui.positive.active.button,
 .ui.positive.buttons .active.button:active {
-  background-color: #13ae38;
+  background-color: #24c34d;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -6785,15 +6822,15 @@ a.ui.inverted.yellow.header:hover {
 /*--- Green ---*/
 
 .ui.green.header {
-  color: #21BA45 !important;
+  color: #34cc5b !important;
 }
 
 a.ui.green.header:hover {
-  color: #16ab39 !important;
+  color: #27bf4e !important;
 }
 
 .ui.green.dividing.header {
-  border-bottom: 2px solid #21BA45;
+  border-bottom: 2px solid #34cc5b;
 }
 
 /* Inverted */
@@ -7446,7 +7483,7 @@ i.inverted.circular.olive.icon {
 /* Green */
 
 i.green.icon {
-  color: #21BA45 !important;
+  color: #34cc5b !important;
 }
 
 i.inverted.green.icon {
@@ -7455,7 +7492,7 @@ i.inverted.green.icon {
 
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   color: #FFFFFF !important;
 }
 
@@ -12055,7 +12092,7 @@ a.ui.olive.label:hover {
 /* Ribbon */
 
 .ui.olive.ribbon.label {
-  border-color: #198f35 !important;
+  border-color: #29a449 !important;
 }
 
 /* Basic */
@@ -12077,8 +12114,8 @@ a.ui.basic.olive.label:hover {
 
 .ui.green.labels .label,
 .ui.green.label {
-  background-color: #21BA45 !important;
-  border-color: #21BA45 !important;
+  background-color: #34cc5b !important;
+  border-color: #34cc5b !important;
   color: #FFFFFF !important;
 }
 
@@ -12086,8 +12123,8 @@ a.ui.basic.olive.label:hover {
 
 .ui.green.labels .label:hover,
 a.ui.green.label:hover {
-  background-color: #16ab39 !important;
-  border-color: #16ab39 !important;
+  background-color: #27bf4e !important;
+  border-color: #27bf4e !important;
   color: #FFFFFF !important;
 }
 
@@ -12101,22 +12138,22 @@ a.ui.green.label:hover {
 /* Ribbon */
 
 .ui.green.ribbon.label {
-  border-color: #198f35 !important;
+  border-color: #29a449 !important;
 }
 
 /* Basic */
 
 .ui.basic.green.label {
   background-color: #FFFFFF !important;
-  color: #21BA45 !important;
-  border-color: #21BA45 !important;
+  color: #34cc5b !important;
+  border-color: #34cc5b !important;
 }
 
 .ui.basic.green.labels a.label:hover,
 a.ui.basic.green.label:hover {
   background-color: #FFFFFF !important;
-  color: #16ab39 !important;
-  border-color: #16ab39 !important;
+  color: #27bf4e !important;
+  border-color: #27bf4e !important;
 }
 
 /*--- Teal ---*/
@@ -15179,11 +15216,11 @@ ol.ui.horizontal.list li:before,
 /* Green */
 
 .ui.green.segment:not(.inverted) {
-  border-top: 2px solid #21BA45;
+  border-top: 2px solid #34cc5b;
 }
 
 .ui.inverted.green.segment {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   color: #FFFFFF !important;
 }
 
@@ -15876,7 +15913,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #21BA45;
+  color: #34cc5b;
 }
 
 /* Disabled */
@@ -18975,7 +19012,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .green.row,
 .ui.grid > .green.column,
 .ui.grid > .row > .green.column {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   color: #FFFFFF;
 }
 
@@ -21134,8 +21171,8 @@ Floated Menu / Item
 
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #21BA45 !important;
-  color: #21BA45 !important;
+  border-color: #34cc5b !important;
+  color: #34cc5b !important;
 }
 
 .ui.menu .teal.active.item,
@@ -21375,7 +21412,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .green.active.item,
 .ui.inverted.green.menu {
-  background-color: #21BA45;
+  background-color: #34cc5b;
 }
 
 .ui.inverted.green.menu .item:before {
@@ -23133,11 +23170,11 @@ Floated Menu / Item
 /* Green */
 
 .ui.green.table {
-  border-top: 0.2em solid #21BA45;
+  border-top: 0.2em solid #34cc5b;
 }
 
 .ui.inverted.green.table {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   color: #FFFFFF !important;
 }
 
@@ -24540,13 +24577,13 @@ a.ui.card:hover,
 .ui.green.cards > .card,
 .ui.cards > .green.card,
 .ui.green.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #21BA45, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #34cc5b, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.green.cards > .card:hover,
 .ui.cards > .green.card:hover,
 .ui.green.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #16ab39, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #27bf4e, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Teal */
@@ -25434,12 +25471,12 @@ a.ui.card:hover,
 ---------------*/
 
 .ui.feed > .event > .content .date {
-  margin: -0.5rem 0em 0em;
+  margin: -0.25rem 0em 0.25em;
   padding: 0em;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 0.875em;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /*--------------
@@ -25448,9 +25485,9 @@ a.ui.card:hover,
 
 .ui.feed > .event > .content .summary {
   margin: 0em;
-  font-size: 1em;
+  font-size: 0.875em;
   font-weight: bold;
-  color: rgba(100, 100, 100, 0.87);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /* Summary Image */
@@ -25496,7 +25533,7 @@ a.ui.card:hover,
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /*--------------
@@ -25523,7 +25560,7 @@ a.ui.card:hover,
 .ui.feed > .event > .content .extra.text {
   padding: 0em;
   border-left: none;
-  font-size: 1em;
+  font-size: 0.875em;
   max-width: 500px;
   line-height: 1.4285em;
 }
@@ -26528,7 +26565,7 @@ a.ui.card:hover,
 .ui.green.statistics .statistic > .value,
 .ui.statistics .green.statistic > .value,
 .ui.green.statistic > .value {
-  color: #21BA45;
+  color: #34cc5b;
 }
 
 .ui.teal.statistics .statistic > .value,
@@ -30904,7 +30941,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
 }
 
 .ui.progress.success .bar,
@@ -31040,7 +31077,7 @@ a.ui.nag {
 }
 
 .ui.inverted.progress.success > .label {
-  color: #21BA45;
+  color: #34cc5b;
 }
 
 .ui.inverted.progress.warning > .label {
@@ -31153,7 +31190,7 @@ a.ui.nag {
 /* Green */
 
 .ui.green.progress .bar {
-  background-color: #21BA45;
+  background-color: #34cc5b;
 }
 
 .ui.green.inverted.progress .bar {
@@ -31710,7 +31747,7 @@ a.ui.nag {
 
 .ui.search > .results .result .price {
   float: right;
-  color: #21BA45;
+  color: #34cc5b;
 }
 
 /*--------------

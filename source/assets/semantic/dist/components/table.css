@@ -624,10 +624,10 @@
 
 /* Green */
 .ui.green.table {
-  border-top: 0.2em solid #21BA45;
+  border-top: 0.2em solid #34cc5b;
 }
 .ui.inverted.green.table {
-  background-color: #21BA45 !important;
+  background-color: #34cc5b !important;
   color: #FFFFFF !important;
 }
 
