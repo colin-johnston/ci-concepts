@@ -133,27 +133,26 @@ title: "Concept 1"
           .content
             .title Startup
             /.description Lorem ipsum dolor sit amet
-        .completed.step
+        .active.step
           %i.wizard.icon
           .content
             .title Queue
             /.description Lorem ipsum dolor sit amet
-        .completed.step
+        .disabled.step
           %i.wizard.icon
           .content
             .title Prepare
             /.description Lorem ipsum dolor sit amet
-        .completed.step
+        .disabled.step
           %i.wizard.icon
           .content
             .title Run
             /.description Lorem ipsum dolor sit amet
-        .completed.step
+        .disabled.step
           %i.wizard.icon
           .content
             .title Finish
             /.description Lorem ipsum dolor sit amet
-
 
       .twelve.wide.column
         .ui.five.column.padded.grid.v1
@@ -177,10 +176,7 @@ title: "Concept 1"
                     %i.wait.icon
                     .content.green
                       00:00:00
-                / %p 6 Workers
-                / %p Start: 09:58:00
-                / %p 98 Tests Ready
-                / %p 00:00:00
+
             .column
               .ui.basic.segment
                 .ui.list
@@ -198,17 +194,15 @@ title: "Concept 1"
                     %i.wait.icon
                     .content.green
                       00:00:00
-                / %p Workers Assigned
-                / %p 0 Tests Waiting
-                / %p 
-                / %p 00:00:00
+
             .column
               .ui.basic.segment
                 .ui.list
                   .item
-                    %i.check.circle.icon
-                    .content
-                      Setup Complete
+                    / %i.check.circle.icon
+                    / .content
+                    /   Setup Complete
+                    &nbsp;
                   .item
                     &nbsp;
                   .item
@@ -217,111 +211,63 @@ title: "Concept 1"
                     %i.wait.icon
                     .content.green
                       00:00:00
-                / %p
-                /   Setup Complete
-                /   %a{:href => "#"} info
-                / %p
-                / %p
-                / %p 00:00:00
+
             .column
               .ui.basic.segment
                 .ui.list
                   .item
-                    %i.check.circle.icon
-                    .content
-                      0 Skipped
+                    / %i.check.circle.icon
+                    / .content
+                    /   0 Skipped
+                    &nbsp;
                   .item
-                    %i.check.circle.icon
-                    .content
-                      0 Failed
+                    / %i.check.circle.icon
+                    / .content
+                    /   0 Failed
+                    &nbsp;
                   .item
-                    %i.check.circle.icon
-                    .content
-                      98 Passed
+                    / %i.check.circle.icon
+                    / .content
+                    /   98 Passed
+                    &nbsp;
                   .item
                     %i.wait.icon
                     .content
                       00:00:00
-                / %p 0 Skipped
-                / %p 0 Failed
-                / %p 98 Passed
-                / %p 00:00:00
+
             .column
               .ui.basic.segment
                 .ui.list
                   .item
-                    %i.file.outline.icon
-                    .content
-                      Logs Collected
+                    / %i.file.outline.icon
+                    / .content
+                    /   Logs Collected
+                    &nbsp;
                   .item
                     &nbsp;
                   .item
-                    %i.cube.icon
-                    .content
-                      00:02:55 CPU
+                    / %i.cube.icon
+                    / .content
+                    /   00:02:55 CPU
+                    &nbsp;
                   .item
                     %i.wait.icon
                     .content
                       %strong
                         00:03:26
                       Total
-                / %p Logs Collected
-                / %p 
-                / %p
-                / %p 00:00:00
 
       .ui.hidden.divider
 
       // tabs - test 
 
       .ui.pointing.secondary.menu
-        %a.active.item Tests
-        %a.item Config File
+        %a.item Tests
+        %a.active.item Config File
         %a.item Logs
       .ui.active.tab
-        %table.ui.sortable.table
-          %thead
-            %tr
-              %th Name
-              %th.collapsing.descending Status
-              %th.collapsing Duration
-          %tbody
-            %tr.positive
-              %td spec/emcee/common/attach_spec.rb
-              %td.collapsing passed
-              %td.collapsing 5 sec
-            %tr.positive
-              %td spec/deploy/emcee-deploy_spec.rb
-              %td.collapsing passed
-              %td.collapsing 4 sec
-            %tr.positive
-              %td spec/emcee/cachesrv_spec.rb
-              %td.collapsing passed
-              %td.collapsing 3 sec
-            %tr.warning
-              %td spec/emcee/common/ant_junit_xml_spec.rb
-              %td.collapsing warnings
-              %td.collapsing 0 sec
-            %tr.positive
-              %td spec/ci/destro_lockfile_spec.rb
-              %td.collapsing passed
-              %td.collapsing 1 sec
-            %tr.positive
-              %td bundle exec rspec spec/emcee/gotexec_spec.rb
-              %td.collapsing passed
-              %td.collapsing 1 sec
-            %tr.positive
-              %td spec/ci/destro_spec.rb
-              %td.collapsing passed
-              %td.collapsing 1 sec
-            %tr.positive
-              %td make -C build_agent test
-              %td.collapsing passed
-              %td.collapsing 1 sec
-
-
-            
-
+        / .ui.segment
+        =image_tag 'config-file-rev.png', class: ""
 
       / .ui.styled.fluid.accordion.test1
         
@@ -358,15 +304,15 @@ title: "Concept 1"
       /         .description Updated 34 mins ago
       
       .ui.segment
-        .ui.green.big.label.v1
-          %i.checkmark.icon
-          Build Passed
+        .ui.grey.big.label.v1
+          %i.circle.notched.loading.icon
+          Build Running
         %p 
           98 tests started a day ago by 
           %a afurm@solanolabs.com 
           from ci
         .ui.floating.dropdown.labeled.search.icon.button
-          %i.check.circle.green.icon
+          %i.grey.circle.notched.icon
           %span.text Session #1914902
           .menu 
             .item 
@@ -381,7 +327,7 @@ title: "Concept 1"
             .item 
               %i.check.circle.icon.green
               Session #1914789
-              
+
         .ui.card
           .content
             .header

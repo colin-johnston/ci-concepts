@@ -830,7 +830,8 @@ th.collapsing {
   padding: .5em .5em !important;
 }
 
-.ui.green.big.label.v1 {
+.ui.green.big.label.v1,
+.ui.grey.big.label.v1 {
   width: 100% !important;
   margin-bottom: 1em !important;
   text-align: center !important;
@@ -851,6 +852,10 @@ th.collapsing {
 
 .ui.segment p {
   margin: 0 0 1.33em !important;
+}
+
+.ui.active.tab img {
+  max-width: 992px;
 }
 /*!
  * # Semantic UI 2.1.4 - Button

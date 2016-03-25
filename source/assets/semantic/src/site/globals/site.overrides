@@ -187,7 +187,7 @@ th.collapsing {
 
 // build passed label
 
-.ui.green.big.label.v1 {
+.ui.green.big.label.v1, .ui.grey.big.label.v1 {
   width: 100% !important;
   margin-bottom: 1em !important;
   text-align: center !important;
@@ -207,4 +207,14 @@ th.collapsing {
 
 .ui.segment p {
   margin: 0 0 1.33em !important;
+}
+
+
+
+// .ui.active.tab .ui.segment img {
+//   max-width: 980px;
+// }
+
+.ui.active.tab img {
+  max-width: 992px;
 }
