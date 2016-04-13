@@ -1,14 +1,42 @@
 # CI Concepts #
 
-Visual and Interaction Design Simulation of Hypothetical v2 Solano CI
+**Visual and Interaction Design Simulation of Hypothetical v2 Solano CI**
 
-## concept2 (concept2-session-info-plus) ##
+This project was built using Semantic UI. The code structure and stylesheet patterns is not intended for use in production Solano CI app.
 
-![concept2-main.png](https://bitbucket.org/repo/qqdRaj/images/2118996502-concept2-main.png)
 
-![concept2-sidebarleft.png](https://bitbucket.org/repo/qqdRaj/images/3466917327-concept2-sidebarleft.png)
 
-![concept2-sidebarright.png](https://bitbucket.org/repo/qqdRaj/images/3557315364-concept2-sidebarright.png)
+## concept1
+
+#### Branch: concept1-lifecycle-steps ( on hold )
+
+
+## concept2
+
+#### Branch: master ( used in UX presentation )
+
+1-ci-concept-main-working.png
+
+![1-ci-concept-main-working.png](screenshots/1-ci-concept-main-working.png)
+
+2-ci-concept-main-working-sessionmenudown.png
+
+![2-ci-concept-main-working-sessionmenudown.png](screenshots/2-ci-concept-main-working-sessionmenudown.png)
+
+3-ci-concept-main-working-branchmenudown.png
+
+![3-ci-concept-main-working-branchmenudown.png](screenshots/3-ci-concept-main-working-branchmenudown.png)
+
+4-ci-concept-main-passed.png
+
+![4-ci-concept-main-passed.png](screenshots/4-ci-concept-main-passed.png)
+
+5-ci-concept-main-passed-leftsidebaropen.png
+![5-ci-concept-main-passed-leftsidebaropen.png](screenshots/5-ci-concept-main-passed-leftsidebaropen.png)
+
+6-ci-concept-main-passed-rightsidebaropen.png
+![6-ci-concept-main-passed-rightsidebaropen.png]
+(screenshots/6-ci-concept-main-passed-rightsidebaropen.png)
 
 
 ## Running Locally ##
@@ -22,5 +50,5 @@ $ bundle install
 Launch project:
 
 ```
-$ bundle exec middleman
+$ bundle exec middleman server
 ```
