@@ -2,7 +2,9 @@
 
 **Visual and Interaction Design Simulation of Hypothetical v2 Solano CI**
 
-This project was built using Semantic UI. The code structure and stylesheet patterns is not intended for use in production Solano CI app.
+This project was built using [Semantic UI](http://semantic-ui.com/) v2.1.4 — a LESS-based UI framework. The code structure and stylesheet patterns is not intended for use in production Solano CI app.
+
+Custom plugin for converting from LESS to SCSS is available.
 
 
 
@@ -32,9 +34,11 @@ This project was built using Semantic UI. The code structure and stylesheet patt
 ![4-ci-concept-main-passed.png](screenshots/4-ci-concept-main-passed.png)
 
 5-ci-concept-main-passed-leftsidebaropen.png
+
 ![5-ci-concept-main-passed-leftsidebaropen.png](screenshots/5-ci-concept-main-passed-leftsidebaropen.png)
 
 6-ci-concept-main-passed-rightsidebaropen.png
+
 ![6-ci-concept-main-passed-rightsidebaropen.png]
 (screenshots/6-ci-concept-main-passed-rightsidebaropen.png)
 
@@ -52,3 +56,4 @@ Launch project:
 ```
 $ bundle exec middleman server
 ```
+
