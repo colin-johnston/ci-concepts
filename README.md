@@ -39,8 +39,7 @@ Custom plugin for converting from LESS to SCSS is available.
 
 6-ci-concept-main-passed-rightsidebaropen.png
 
-![6-ci-concept-main-passed-rightsidebaropen.png]
-(screenshots/6-ci-concept-main-passed-rightsidebaropen.png)
+![6-ci-concept-main-passed-rightsidebaropen.png](screenshots/6-ci-concept-main-passed-rightsidebaropen.png)
 
 
 ## Running Locally ##
