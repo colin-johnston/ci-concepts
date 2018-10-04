@@ -17,6 +17,8 @@ Custom plugin for converting from LESS to SCSS is available.
 
 #### Branch: master ( used in UX presentation )
 
+See the "working" view at `localhost:4567/working`
+
 1-ci-concept-main-working.png
 
 ![1-ci-concept-main-working.png](screenshots/1-ci-concept-main-working.png)
@@ -28,6 +30,8 @@ Custom plugin for converting from LESS to SCSS is available.
 3-ci-concept-main-working-branchmenudown.png
 
 ![3-ci-concept-main-working-branchmenudown.png](screenshots/3-ci-concept-main-working-branchmenudown.png)
+
+See the "passed" view at `localhost:4567`
 
 4-ci-concept-main-passed.png
 
